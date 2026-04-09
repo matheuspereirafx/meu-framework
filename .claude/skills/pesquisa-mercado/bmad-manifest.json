@@ -1,0 +1,16 @@
+{
+  "module-code": "custom",
+  "capabilities": [
+    {
+      "name": "pesquisa-mercado",
+      "menu-code": "PM",
+      "description": "Pesquisa de mercado completa: concorrentes, reviews negativos, tamanho de mercado e tendências.",
+      "supports-headless": false,
+      "phase-name": "0-ideacao",
+      "after": ["agente-ideia"],
+      "before": ["agente-viabilidade"],
+      "is-required": false,
+      "output-location": "output"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+
+{
+  "module-code": "custom",
+  "capabilities": [
+    {
+      "name": "agente-ideia",
+      "menu-code": "AI",
+      "description": "Transforma ideia bruta em problema raiz validado e solução idealizada.",
+      "supports-headless": false,
+      "phase-name": "0-ideacao",
+      "before": ["agente-viabilidade"],
+      "is-required": true,
+      "output-location": "output"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "module-code": "custom",
+  "capabilities": [
+    {
+      "name": "agente-financeiro",
+      "description": "Viabilidade financeira completa: unit economics, projeções 24 meses em 3 cenários, break-even e parecer final. Gera financeiro.md e financeiro.xlsx.",
+      "supports-headless": false,
+      "phase-name": "3-financeiro",
+      "after": ["agente-estrategia"],
+      "before": ["agente-mvp"],
+      "is-required": true,
+      "output-location": "output"
+    }
+  ]
+}

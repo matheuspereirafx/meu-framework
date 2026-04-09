@@ -1,0 +1,15 @@
+{
+  "module-code": "custom",
+  "capabilities": [
+    {
+      "name": "agente-estrategia",
+      "description": "Posicionamento estratégico completo: Canvas, ERRC, TAM/SAM/SOM e modelo de receita. Usa outputs do agente-ideia e pesquisa-mercado como base.",
+      "supports-headless": false,
+      "phase-name": "2-estrategia",
+      "after": ["agente-ideia", "pesquisa-mercado"],
+      "before": ["agente-financeiro"],
+      "is-required": true,
+      "output-location": "output"
+    }
+  ]
+}
