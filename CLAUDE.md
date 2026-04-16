@@ -29,22 +29,9 @@ Bem-vindo ao **Ideaflow** — framework de agentes para validar ideias antes de 
 
 | Comando | O que faz |
 |---------|-----------|
-| `/agente-ideia` | Clareza do problema + idealização da solução |
-| `/pesquisa-mercado` | Concorrentes, persona, TAM/SAM/SOM |
-| `/agente-estrategia` | Canvas, ERRC, modelo de receita |
-| `/agente-financeiro` | Projeções 24 meses, LTV/CAC, planilha |
-| `/agente-mvp` | Hipóteses, experimentos, indicadores |
-| `/skill-plano-negocio` | Documento institucional + Word |
-
-## Outputs gerados em `output/`
-
-- `ideia.md` — problema raiz + solução
-- `pesquisa-mercado.md` — mercado + persona
-- `estrategia.md` — posicionamento
-- `financeiro.md` + `financeiro.xlsx` — viabilidade
-- `mvp.md` — validação
-- `plano-negocio.md` + `plano-negocio.docx` — documento final
+| `/workflow-idealizacao` | Clareza do problema + idealização da solução |
+| `/workflow-planejamento` | Planejamento  e pesquisa de mercado  |
 
 ## Como começar
 
-Digite `/agente-ideia` e descreva sua ideia.
+Digite `/workflow-idealizacao` e descreva sua ideia.
